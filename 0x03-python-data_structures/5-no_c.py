@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 def no_c(my_string):
     if my_string[:]:
         remove_string1 = my_string.translate({ord("c"): None})
