@@ -1,3 +1,5 @@
-#!/urs/bin/pyhton3
-def print_sorted_dictionary(a_dictionary):
-    return a_dictionary.sort()
+#!/usr/bin/python3
+def print_sorted_dictionary(d):
+    for key in sorted(d.keys()):
+        print(f"{key}: {d[key]}")
+
