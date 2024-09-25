@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """class Rectangle"""
+
+
 class Rectangle:
     """A class to represent a rectangle."""
     def __init__(self, width=0, height=0):
@@ -34,10 +36,12 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+    
     def area(self):
         """instance method that returns the rectangle area"""
         area = self.width * self.height
         return area
+    
     def perimeter(self):
         """Public instance method that returns the rectangle perimeter"""
         rect_perimeter = 2 * (self.width + self.height)
